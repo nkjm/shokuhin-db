@@ -11,7 +11,7 @@ module.exports = class shokuhinDb {
             const headers = {
                 'Content-Type': 'application/json'
             };
-            const url = dbPrefix + '/food/' + encodeURIComponent(foodName);
+            const url = apiBase + '/food/' + encodeURIComponent(foodName);
             request({
                 url: url,
                 method: 'GET',
