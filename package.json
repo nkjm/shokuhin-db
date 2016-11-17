@@ -1,6 +1,6 @@
 {
   "name": "shokuhin-db",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Food database to query nutrition of each food.",
   "private": false,
   "main": "index.js",
