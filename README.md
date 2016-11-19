@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/nkjm/shokuhin-db.svg?branch=master)](https://travis-ci.org/nkjm/shokuhin-db)
+
 # 概要
 
 食品のカロリー、栄養量を取得するためのライブラリです。
