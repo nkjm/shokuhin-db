@@ -7,7 +7,7 @@ const apiBase = 'https://apex.oracle.com/pls/apex/evangelist/shokuhindb';
 module.exports = class shokuhinDb {
 
     static getNutrition(foodName){
-        if (typeof foodName != 'string' || foodName == null || foodName.trim() == ''){
+        if (typeof foodName != 'string' || foodName.trim() == ''){
             return Promise.reject('foodName not set');
         }
         return new Promise(function(resolve, reject){
